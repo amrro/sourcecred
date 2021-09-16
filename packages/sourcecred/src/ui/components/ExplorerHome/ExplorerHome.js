@@ -108,15 +108,15 @@ const useStyles = makeStyles((theme) => ({
   arrowInput: {width: "40%", display: "inline-block"},
   pageHeader: {color: theme.palette.text.primary},
   credCircle: {
-    borderColor: theme.palette.blueish,
+    borderColor: theme.palette.blue,
     "& .title": {
-      color: theme.palette.blueish,
+      color: theme.palette.blue,
     },
   },
   grainCircle: {
-    borderColor: theme.palette.warning.main,
+    borderColor: theme.palette.darkOrange,
     "& .title": {
-      color: theme.palette.warning.main,
+      color: theme.palette.darkOrange,
     },
   },
   [`label-${IdentityTypes.BOT}`]: {
